@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: garamond;
+  src: url(/fonts/EBGaramond-VariableFont_wght.ttf) format(truetype-variations);
+}
+
+.overflow-hidden {
+  mask:linear-gradient(90deg, transparent, white 5%, white 95%, transparent)
+}
