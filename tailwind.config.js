@@ -10,12 +10,13 @@ export default {
         'garamond': ['garamond']
       },
       screens: {
-        'sm': '720px',
-        'md': '900px',
-        'lg': '1080px',
-        'xl': '1440px',
-        '2xl': '2000px'
-      }
+        'xs': '720px',
+        'sm': '1280px',
+        'md': '1600px',
+        'lg': '1920px',
+        'xl': '2560px',
+        '2xl': '3840px',
+      },
     },
   },
   plugins: [],
