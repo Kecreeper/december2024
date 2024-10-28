@@ -1,10 +1,12 @@
 import UnitedFall from './components/UnitedFall.jsx'
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
 
 function App() {
 
   return (
     <>
-      <div className='bg-black absolute max-w-full'>
+      <div className='bg-black fixed top-0 max-w-full'>
         <UnitedFall />
       </div>
       <div className='font-garamond text-gray-300 whitespace-nowrap grid grid-cols-3 grid-rows-1 place-items-center min-h-screen'>
@@ -28,7 +30,19 @@ function App() {
           </div>
         </div>
       </div>
-      
+      <div className='fixed bottom-0 max-w-full'>
+        <div className='flex gap-2 bg-gradient-to-br from-slate-800 to-blue-800 rounded-2xl p-2 my-4 max-w-xl mx-auto'>
+          <button className='grow px-2 py-4 rounded-lg bg-black/50 backdrop-blur-sm text-white'>
+            Belligerents
+          </button>
+          <button className='grow px-2 py-4 rounded-lg bg-black/50 backdrop-blur-sm text-white'>
+            Documents
+          </button>
+        </div>
+        <div className='bg-black'>
+          <UnitedFall />
+        </div>
+      </div>
     </>
   );
 }
