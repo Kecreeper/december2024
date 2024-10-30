@@ -1,8 +1,10 @@
 import { motion } from "framer-motion"
 
-export default function UnitedFall() {
+export default function UnitedFall( { rev } ) {
+
+
   return (
-    <div className='overflow-hidden font-garamond text-white italic text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl'>
+    <div className='overflow-hidden font-garamond text-white italic text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl'>
       <ul className='flex flex-nowrap whitespace-nowrap w-fit min-w-full'>
         { 
           Array.from({ length: 10 }, (_, index) => (
@@ -11,7 +13,7 @@ export default function UnitedFall() {
               duration: 10, 
               repeat: Infinity,
             }} key={index}>
-              UNITED WE STAND, DIVIDED WE FALL &nbsp; ★ &nbsp;
+              UNITED WE STAND, DIVIDED WE FALL <span className="font-eagles not-italic">&nbsp;d&nbsp;</span>
             </motion.div>
           ))
         }

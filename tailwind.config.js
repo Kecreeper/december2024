@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'garamond': ['garamond']
+        'garamond': ['garamond'],
+        'eagles': ['eagles'],
       },
       screens: {
         'xs': '720px',
