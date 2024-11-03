@@ -28,7 +28,7 @@ function Documents() {
                 <div className="bg-white/15 backdrop-blur-md text-white rounded-3xl p-3 flex flex-col">
                     <img onClick={goToImg} className="max-h-screen rounded-[15px]" src='.\docs\Iowa.png'/>
                     <div className="text-center pb-1 pt-2 text-lg font-bold">
-                        Shocking Iowa Poll, <span className=" font-normal"> Des Moines Register. </span>
+                        Shocking Iowa Poll, <span className="italic font-normal"> Des Moines Register. </span>
                     </div>
                     <div className="text-center pb-1 text-lg text-gray-400">
                         "Can you feel the light, inside? Can you feel that fire?"
