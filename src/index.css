@@ -9,14 +9,44 @@
 
 @font-face {
   font-family: garamond;
-  font-weight: normal;
-  src: url(/fonts/Charm-Regular.ttf);
+  font-weight: bold;
+  font-style: normal;
+  src: url(/fonts/EBGaramond-Bold.ttf);
 }
 
 @font-face {
   font-family: garamond;
   font-weight: bold;
-  src: url(/fonts/Charm-Bold.ttf);
+  font-style: italic;
+  src: url(/fonts/EBGaramond-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: garamond;
+  font-weight: bolder;
+  font-style: normal;
+  src: url(/fonts/EBGaramond-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: garamond;
+  font-weight: bolder;
+  font-style: italic;
+  src: url(/fonts/EBGaramond-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: garamond;
+  font-weight: normal;
+  font-style: italic;
+  src: url(/fonts/EBGaramond-Italic.ttf);
+}
+
+@font-face {
+  font-family: garamond;
+  font-weight: normal;
+  font-style: normal;
+  src: url(/fonts/EBGaramond-Regular.ttf);
 }
 
 .overflow-hidden {
