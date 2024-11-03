@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: garamond;
-  src: url(/fonts/EBGaramond-VariableFont_wght.ttf) format(truetype-variations);
+  font-family: eagles;
+  src: url(/fonts/EAGLES.ttf);
 }
 
 @font-face {
-  font-family: eagles;
-  src: url(/fonts/EAGLES.ttf);
+  font-family: garamond;
+  font-weight: normal;
+  src: url(/fonts/Charm-Regular.ttf);
+}
+
+@font-face {
+  font-family: garamond;
+  font-weight: bold;
+  src: url(/fonts/Charm-Bold.ttf);
 }
 
 .overflow-hidden {
